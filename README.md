@@ -1,4 +1,3 @@
-```markdown
 # Email Cleaner CLI Tool
 
 A simple and practical **command-line Python tool** that extracts, validates, and deduplicates email addresses from a text file.
@@ -6,6 +5,7 @@ A simple and practical **command-line Python tool** that extracts, validates, an
 Designed for **automation**, **log tracking**, and **config-based customization**.
 
 ---
+
 
 ## Features
 
