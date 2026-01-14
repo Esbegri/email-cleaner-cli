@@ -74,3 +74,10 @@ Logs are written both to console and log file
 Author
 
 Developed as a practice project for freelance-oriented Python CLI tools.
+
+## Use Cases
+
+- Cleaning email lists before marketing campaigns
+- Preparing datasets for CRM import
+- Removing duplicates from large contact files
+- Automation in system scripts
