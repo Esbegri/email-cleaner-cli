@@ -1,0 +1,11 @@
+test@gmail.com
+hello@yahoo.com
+test@gmail.com
+invalid-email
+info@company.com
+HELLO@yahoo.com
+@asdasdsad
+@.asd.s
+@asdsad@.asdsa.asd
+trying
+test@hotmail.com
