@@ -1,3 +1,4 @@
+```markdown
 # Email Cleaner CLI Tool
 
 A simple and practical **command-line Python tool** that extracts, validates, and deduplicates email addresses from a text file.
@@ -20,6 +21,7 @@ Designed for **automation**, **log tracking**, and **config-based customization*
 
 ## Project Structure
 
+```text
 .
 ├── main.py
 ├── config.json
@@ -28,56 +30,60 @@ Designed for **automation**, **log tracking**, and **config-based customization*
 ├── requirements.txt
 └── README.md
 
----
-
 ## Requirements
 
-- Python 3.10+
-- No external libraries required (standard library only)
+• Python 3.10+
 
----
+• No external libraries required (uses Python Standard Library)
 
 ## Configuration
 
-`config.json`
-```json
 {
   "email_pattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$",
   "log_file": "app.log"
 }
 
 Usage
-python main.py --input sample_input.txt --output output.txt
+Standard Run:
 
-Dry Run (simulation)
+Bash
+
+python main.py --input sample_input.txt --output output.txt
+Dry Run (Simulation):
+
+Bash
+
 python main.py --input sample_input.txt --output output.txt --dry-run
 
-
 Example
-Input
+Input (sample_input.txt):
+
+Plaintext
+
 test@gmail.com
 hello@yahoo.com
 test@gmail.com
 invalid-email
 HELLO@yahoo.com
+Output (output.txt):
 
-Output
+Plaintext
+
 hello@yahoo.com
 test@gmail.com
 
 Logging
+• All operations and errors are logged.
 
-All operations and errors are logged
+• Logs are written both to the console and the log file defined in config.json.
 
-Logs are written both to console and log file
+Use Cases
+• Cleaning email lists before marketing campaigns.
 
-Author
+• Preparing datasets for CRM import.
 
-Developed as a practice project for freelance-oriented Python CLI tools.
+• Removing duplicates from large contact files.
 
-## Use Cases
+• Automation in system scripts.
 
-- Cleaning email lists before marketing campaigns
-- Preparing datasets for CRM import
-- Removing duplicates from large contact files
-- Automation in system scripts
+Author: Developed as a practice project for freelance-oriented Python CLI tools.
